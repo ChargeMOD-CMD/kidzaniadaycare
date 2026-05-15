@@ -30,7 +30,7 @@ export function Hero() {
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <a
             href="#admissions"
-            className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[var(--gradient-cosmic)] text-premium-dark font-semibold shadow-[var(--shadow-glow-purple)] hover:scale-[1.04] transition-transform"
+            className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[var(--gradient-cosmic)] text-white drop-shadow-md font-bold shadow-[var(--shadow-glow-purple)] hover:scale-[1.04] transition-transform"
           >
             Begin Enrollment
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />

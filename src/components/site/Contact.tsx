@@ -25,7 +25,7 @@ export function Contact() {
             <div className="mt-8 flex flex-wrap gap-3">
               <a
                 href="#"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-[var(--gradient-cosmic)] text-premium-dark font-semibold shadow-[var(--shadow-glow-pink)] hover:scale-[1.03] transition-transform"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-[var(--gradient-cosmic)] text-white drop-shadow-md font-bold shadow-[var(--shadow-glow-pink)] hover:scale-[1.03] transition-transform"
               >
                 <MessageCircle className="size-4" />
                 WhatsApp Us

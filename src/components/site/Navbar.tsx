@@ -34,7 +34,7 @@ export function Navbar() {
         <div className="flex items-center gap-4">
           <a
             href="#admissions"
-            className="hidden md:inline-flex px-5 py-2 rounded-full text-sm font-semibold bg-[var(--gradient-cosmic)] text-premium-dark shadow-[var(--shadow-glow-pink)] hover:scale-[1.03] transition-transform"
+            className="hidden md:inline-flex px-5 py-2 rounded-full text-sm font-bold bg-[var(--gradient-cosmic)] text-white drop-shadow-md shadow-[var(--shadow-glow-pink)] hover:scale-[1.03] transition-transform"
           >
             Enroll Now
           </a>
@@ -63,7 +63,7 @@ export function Navbar() {
           <a
             href="#admissions"
             onClick={() => setIsOpen(false)}
-            className="mt-2 w-full text-center px-5 py-3 rounded-xl text-sm font-semibold bg-[var(--gradient-cosmic)] text-premium-dark shadow-[var(--shadow-glow-pink)]"
+            className="mt-2 w-full text-center px-5 py-3 rounded-xl text-sm font-bold bg-[var(--gradient-cosmic)] text-white drop-shadow-md shadow-[var(--shadow-glow-pink)]"
           >
             Enroll Now
           </a>
