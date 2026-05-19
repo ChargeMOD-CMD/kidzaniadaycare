@@ -2,17 +2,17 @@ import { Sparkles } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="px-6 pt-16 pb-10 border-t border-white/5">
+    <footer className="px-5 sm:px-6 pt-12 pb-8 sm:pt-16 sm:pb-10 border-t border-white/5">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-16 pb-12">
+        <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-16 pb-10 sm:pb-12">
           <div className="max-w-sm mx-auto lg:mx-0 text-center lg:text-left">
-            <div className="flex items-center justify-center lg:justify-start gap-2 mb-5">
-              <span className="size-9 rounded-xl bg-[var(--gradient-cosmic)] grid place-items-center">
-                <Sparkles className="size-4 text-premium-dark" strokeWidth={2.5} />
+            <div className="flex items-center justify-center lg:justify-start gap-2 mb-4 sm:mb-5">
+              <span className="size-8 sm:size-9 shrink-0 rounded-xl bg-[var(--gradient-cosmic)] grid place-items-center">
+                <Sparkles className="size-3.5 sm:size-4 text-premium-dark" strokeWidth={2.5} />
               </span>
-              <span className="font-display text-xl font-semibold">Kidzania Quantum</span>
+              <span className="font-display text-lg sm:text-xl font-semibold truncate">Kidzania Quantum</span>
             </div>
-            <p className="text-sm text-foreground/45 leading-relaxed">
+            <p className="text-xs sm:text-sm text-foreground/45 leading-relaxed">
               The world's first cinematic preschool ecosystem — redefining early
               childhood education through the lens of wonder.
             </p>
@@ -28,9 +28,9 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-[11px] uppercase tracking-[0.2em] text-foreground/30 text-center md:text-left">
+        <div className="pt-6 sm:pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] sm:text-[11px] uppercase tracking-wider sm:tracking-[0.2em] text-foreground/30 text-center md:text-left">
           <span>© 2026 Kidzania QuantumVerse</span>
-          <span className="flex flex-wrap justify-center gap-2">
+          <span className="flex flex-wrap justify-center gap-x-2 gap-y-1">
             <span>Made with wonder</span>
             <span className="hidden sm:inline">·</span>
             <span>Privacy</span>
@@ -46,7 +46,7 @@ export function Footer() {
 function FooterCol({ title, items }: { title: string; items: string[] }) {
   return (
     <div>
-      <h5 className="text-[11px] font-bold uppercase tracking-[0.2em] text-foreground/60 mb-4">
+      <h5 className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider sm:tracking-[0.2em] text-foreground/60 mb-3 sm:mb-4">
         {title}
       </h5>
       <ul className="space-y-2 text-foreground/45">

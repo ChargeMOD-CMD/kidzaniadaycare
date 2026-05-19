@@ -16,12 +16,12 @@ export function Navbar() {
 
   return (
     <nav className="fixed top-0 inset-x-0 z-50 px-4 py-4">
-      <div className="mx-auto max-w-7xl glass-strong rounded-full px-5 py-2.5 flex items-center justify-between shadow-[0_8px_32px_-8px_oklch(0_0_0/0.5)]">
-        <a href="#hero" className="flex items-center gap-2.5 group">
-          <span className="relative size-9 rounded-xl bg-[var(--gradient-cosmic)] grid place-items-center shadow-[var(--shadow-glow-purple)] transition-transform group-hover:scale-105">
-            <Sparkles className="size-4 text-premium-dark" strokeWidth={2.5} />
+      <div className="mx-auto max-w-7xl glass-strong rounded-[2rem] px-4 sm:px-5 py-2 sm:py-2.5 flex items-center justify-between shadow-[0_8px_32px_-8px_oklch(0_0_0/0.5)] gap-2">
+        <a href="#hero" className="flex items-center gap-2 sm:gap-2.5 group min-w-0">
+          <span className="relative shrink-0 size-8 sm:size-9 rounded-xl bg-[var(--gradient-cosmic)] grid place-items-center shadow-[var(--shadow-glow-purple)] transition-transform group-hover:scale-105">
+            <Sparkles className="size-3.5 sm:size-4 text-premium-dark" strokeWidth={2.5} />
           </span>
-          <span className="font-display text-xl font-semibold tracking-tight">
+          <span className="font-display text-base sm:text-xl font-semibold tracking-tight truncate">
             Kidzania <span className="text-aqua-dream">Quantum</span>
           </span>
         </a>
@@ -32,7 +32,7 @@ export function Navbar() {
             </a>
           ))}
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4 shrink-0">
           <a
             href="#admissions"
             className="hidden md:inline-flex px-5 py-2 rounded-full text-sm font-bold bg-[var(--gradient-cosmic)] text-white drop-shadow-md shadow-[var(--shadow-glow-pink)] hover:scale-[1.03] transition-transform"
@@ -41,9 +41,9 @@ export function Navbar() {
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 rounded-full glass-strong text-foreground"
+            className="lg:hidden p-1.5 sm:p-2 rounded-full glass-strong text-foreground"
           >
-            {isOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+            {isOpen ? <X className="size-4 sm:size-5" /> : <Menu className="size-4 sm:size-5" />}
           </button>
         </div>
       </div>
