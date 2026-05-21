@@ -10,7 +10,7 @@ export function Footer() {
               <span className="size-8 sm:size-9 shrink-0 rounded-xl bg-[var(--gradient-cosmic)] grid place-items-center">
                 <Sparkles className="size-3.5 sm:size-4 text-premium-dark" strokeWidth={2.5} />
               </span>
-              <span className="font-display text-lg sm:text-xl font-semibold truncate">Kidzania Quantum</span>
+              <span className="font-display text-lg sm:text-xl font-semibold truncate">Kidzania Daycare</span>
             </div>
             <p className="text-xs sm:text-sm text-foreground/45 leading-relaxed">
               The world's first cinematic preschool ecosystem — redefining early
@@ -29,7 +29,7 @@ export function Footer() {
           </div>
         </div>
         <div className="pt-6 sm:pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] sm:text-[11px] uppercase tracking-wider sm:tracking-[0.2em] text-foreground/30 text-center md:text-left">
-          <span>© 2026 Kidzania QuantumVerse</span>
+          <span>© 2026 Kidzania Daycare</span>
           <span className="flex flex-wrap justify-center gap-x-2 gap-y-1">
             <span>Made with wonder</span>
             <span className="hidden sm:inline">·</span>

@@ -22,7 +22,7 @@ export function Navbar() {
             <Sparkles className="size-3.5 sm:size-4 text-premium-dark" strokeWidth={2.5} />
           </span>
           <span className="font-display text-base sm:text-xl font-semibold tracking-tight truncate">
-            Kidzania <span className="text-aqua-dream">Quantum</span>
+            Kidzania <span className="text-aqua-dream">Daycare</span>
           </span>
         </a>
         <div className="hidden lg:flex items-center gap-7 text-[13px] font-medium uppercase tracking-[0.18em] text-foreground/60">
